@@ -851,7 +851,7 @@ function main:Dropdown(text,option,callback)
  DropScroll.Position = UDim2.new(0, 0, 0, 31)
  DropScroll.Size = UDim2.new(0, 370, 0, 100)
  DropScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
- DropScroll.ScrollBarThickness = 15
+ DropScroll.ScrollBarThickness = 22
  
  UIListLayout.Parent = DropScroll
  UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
